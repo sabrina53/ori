@@ -23,6 +23,8 @@ and install the example database or create your own account.
 ```
 
 ```bash
+Run   php artisan key:generate
+
 Run   php artisan serve 
 ```
 
