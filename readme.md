@@ -13,19 +13,23 @@ or if you have any further questions about my project or anything else please fe
 
 ### Setup
 ```bash
-Download the file and open on your text editor. 
+Download the file and open on it your text editor. 
 ```
 ```bash
-and install the example database or create your own account.
+Install the database called ```oridb.sql```
+```
+```bash
+Next setup .env file. Open the folder downloaded in your code editor and create a new file.
+
+You can copy and paste this example .env file here: 
+https://github.com/laravel/laravel/blob/master/.env.example
+
+Change the example.env to the correct databse name. If you are using a mac, then should also change the 
+DB_USERNAME and DB_PASSWORD to "root" and DB_PORT to 8889.
+
 ```
 ```bash
  Then cd into folder through the terminal.
-```
-
-```bash
-Setup .env file with the correcto databse name, username and password. 
-You can copy and paste this example .env file here: 
-https://github.com/laravel/laravel/blob/master/.env.example
 ```
 
 ```bash
@@ -36,4 +40,8 @@ Run   php artisan key:generate
 
 Run   php artisan serve 
 ```
+```bash
+Create your own account
+```
+
 
