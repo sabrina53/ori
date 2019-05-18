@@ -41,7 +41,7 @@ Run   php artisan key:generate
 Run   php artisan serve 
 ```
 ```bash
-Create your own account
+Register to create your own account and begin!
 ```
 
 
