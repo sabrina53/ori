@@ -1,0 +1,191 @@
+
+	/* Invoice */
+.item-title {
+font-size: 18px;
+}
+.signature-line{
+border-bottom: 2px solid;
+width: 150px;
+/*align-content: center;*/
+margin-bottom: 15px;
+}
+#bottom {
+margin-bottom: -15px;
+margin-top: 15px;
+}
+
+#total {
+width: 92%;
+margin-left: 10px;
+}
+.taxtxt {
+	font-size: 15px;
+	padding: 5px;
+}
+.greyitemBox {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 30px;
+	padding: 10px;
+}
+#issued {
+	width: 50%;
+}
+.bill-box {
+	border-radius: 20px;
+	border-style: solid;
+	   border-width: 5px;
+	   border-color: #5DE1CD;
+	   margin-bottom: 30px;
+
+	   padding: 10px;
+}
+.bill-title {
+	background-color: #CDF5EF;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	border-style: solid;
+	   border-width: 5px;
+	   border-color: #5DE1CD;
+	   	border-radius: 10px;
+width: 1175px;
+text-align: center;
+margin-left: -15px;
+margin-top: -15px;
+
+}
+.pdfa{
+	color: white;
+	text-decoration: none;
+}
+.form-control {
+	display: block;
+width: 100%;
+height: 30px;
+padding-right: 10px;
+margin-top: 15px;
+margin-bottom: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control
+.inline-item{
+	display: inline-flex;
+}
+.pdfCon {
+	font-family: Merriweather Sans;
+	text-align: center;
+	margin: auto;
+	background-color: #FDFCFC;
+	color: #788797;
+	padding: 40px;
+
+}
+.download-btn {
+		color: #788797;
+		background-color: #5DE1CD;
+		width: 200px;
+		height: 30px;
+		margin:auto;
+		padding-top: 7px;
+		align-content: center;
+		border-radius: 5px;
+
+}
+.pdf-title {
+color: #5DE1CD;
+font-size: 35px;
+font-family: Merriweather Sans;
+text-decoration: none;
+letter-spacing: 5px;
+text-align: center;
+}
+
+.pdf-titleNum {
+color: #5DE1CD;
+font-size: 35px;
+font-family: Merriweather Sans;
+text-decoration: none;
+letter-spacing: 5px;
+text-align: center;
+}
+
+.top-pdf {
+	display: grid;
+	grid-template-columns: repeat(12,1fr);
+	grid-gap: 15px;
+	text-align: left;
+	margin-bottom: 40px;
+
+}
+
+.form-header {
+color: #5DE1CD;
+font-size: 18px;
+padding-right: 10px;
+}
+
+.form-bold {
+	font-size: 16px;
+}
+
+.form-text {
+	font-family: Merriweather Sans;
+	font-size: 13px;
+}
+.userform {
+grid-column: 2/5;	
+width: 300px;
+
+}
+
+.client-form{
+grid-column: 5/8;
+width: 300px;
+
+
+}
+
+.paymentform {
+grid-column: 8/-1;	
+}
+
+#payone{
+	display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-gap: 20px;
+}
+
+#paytwo{
+	display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-gap: 15px;
+}
+
+#paythree{
+	display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-gap: 15px;
+}
+
+.payheader-one {
+		color: #788797;
+		font-size: 14px;
+}
+
+.payheader-two {
+color: #5DE1CD;
+		font-size: 14px;
+}
+
+#signature {
+	margin-top: 20px;
+}

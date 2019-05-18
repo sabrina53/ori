@@ -1,0 +1,172 @@
+/*Caclculator Css*/
+
+#calcCon {
+  background-color: #76E6D5;
+  min-width: 1066px;
+margin: auto;
+text-align: center;
+
+}
+
+.calcTop {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+
+.calcform {
+  top: 40px;
+  grid-column: 2/4;
+  background-color: white;
+  padding: 50px;
+  position: relative;
+  width: 600px;
+  border-radius: 10px;
+  left: 150px;
+  margin: auto;
+}
+
+.calc-title {
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+#calcsubmit {
+  height: 30px;
+  border-radius: 5px;
+}
+
+.calcBottom {
+  background-color: #E9FBF8;
+  position: relative;
+top: 110px;
+height: 550px;
+}
+#vueapp {
+height: 800px;
+}
+
+.rategrid {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-gap: 50px;
+  text-align: center;
+  height: 50px;
+  margin:auto;
+}
+
+.ratebox {
+  background-color: #76E6D5;
+  border-radius: 5px;
+  height: 100px;
+}
+
+#rate-title {
+  padding-top: 50px;
+}
+
+#hourbox {
+grid-column: 2/3;
+}
+.rate-title {
+  font-size: 20px;
+  padding-top: 20px;
+  color: white;
+}
+.scrolltxt{
+  margin-top: 30px;
+  opacity: 0.5;
+}
+.rate {
+  font-size:30px;
+    color: white;
+    padding-top: 10px;
+    font-family: Helvetica;
+
+}
+.calc-tipbox {
+  position: relative;
+  top:50px;
+
+}
+
+.calc-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 40px;
+  text-align: left;
+  line-height: 23px;
+  padding: 20px 50px 30px 50px;
+
+}
+
+/* Timer CSS*/
+#timerContainer {
+font-family: Merriweather Sans;
+  font-size: 25px;  font-weight: 300;
+margin-top: 12px;
+margin-bottom: 0;
+  border-top:0px;
+    height: 47px;
+  color: white;
+  width: 220px;
+}
+
+.timer, .reset {
+float:left;
+width: 60%;
+padding-top: 15px;
+padding-bottom: 15px;
+font-size: 20px;
+text-align:center;
+color: #fff;
+background-color: #23A591;
+background: #23A591;
+cursor: pointer;
+cursor: auto;
+color: white;
+font-family: Helvetica; 
+font-weight: bold;
+}
+
+.reset {
+  background-color: #55E0CB;
+  color: white;
+  width:20%;
+  height: 50px;
+}
+
+.lighter {
+  background-color: #55E0CB;
+}
+
+.startTimer:hover {
+  background-color: #9CD2CA;
+}
+.pauseTimer:hover {
+    background-color: #9CD2CA;
+
+}
+.card-template {
+  width: 220px;
+  height: 200px;
+  background-color: white;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 5px 20px 0 rgba(0, 0, 0, 0.12);
+}
+
+.timer h4 {
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 12px;
+  font-size: 20px;
+ }
+
+ .card-heading {
+  font-size: 20px;
+ }
+.timetracker{
+    border-radius: 0px 0px 15px 0px;
+  }
+
+
+
