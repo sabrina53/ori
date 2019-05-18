@@ -21,6 +21,7 @@ and install the example database or create your own account.
 ```bash
  Then cd into folder through the terminal.
 ```
+Download an example .env file [here](https://github.com/laravel/laravel/blob/master/.env.example) and set it up database name, username and password.
 
 ```bash
 Run   php artisan key:generate
