@@ -21,8 +21,10 @@ and install the example database or create your own account.
 ```bash
  Then cd into folder through the terminal.
 ```
+
 ```bash
-Set up .env file with the correcto databse name, username and password. You can copy and paste this example .env file [here](https://github.com/laravel/laravel/blob/master/.env.example) 
+Setup .env file with the correcto databse name, username and password. You can copy and paste this example .env file 
+[here](https://github.com/laravel/laravel/blob/master/.env.example/) 
 ```
 
 ```bash
