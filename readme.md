@@ -16,7 +16,7 @@ or if you have any further questions about my project or anything else please fe
 Download the file and open on it your text editor. 
 ```
 ```bash
-Install the database called ```oridb.sql```
+Install the database called "oridb.sql"
 ```
 ```bash
 Next setup .env file. Open the folder downloaded in your code editor and create a new file.
